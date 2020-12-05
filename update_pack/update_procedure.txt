@@ -1,0 +1,19 @@
+Update instructions from version 1.0 to 1.1 -
+
+Please read and follow the steps below carefully. 
+Before starting, keep a backup of files and database of your running 1.0 version.
+
+1. Login to your admin panel and go to system settings under settings menu.
+2. Move to the section 'Update Product' on settings page, right side.
+3. Upload the file 'update_1.1.zip' from your copy of Atlas app downloaded from Codecanyon.
+4. Hit the button 'save'.
+5. Log out from the application. Don't get panicked if you face any errors after installing the update.
+6. Now copy the application files as instructed below :
+	a. Copy all files and folder from "update_pack/assets" and paste it inside your application's "assets/" folder.
+	b. Copy all files from "update_pack/controllers" and paste it inside your application's "application/controllers/" folder.
+	c. Copy all files from "update_pack/helpers" and paste it inside your application's "application/helpers/" folder.
+	d. Copy all files from "update_pack/models" and paste it inside your application's "application/models/" folder.
+	e. Copy all files and folders from "update_pack/views" and paste it inside your application's "application/views/" folder.
+	f. Copy "update_pack/routes.php" and replace by pasting it inside your application's "application/config/" folder.
+
+7. That's it. Now get back to your application and refresh the browser. You will get the all new features from version 1.1 to your old version 1.0.
